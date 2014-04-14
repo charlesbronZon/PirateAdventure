@@ -36,6 +36,7 @@
 		92089B9418FB77BA00369B43 /* SNEWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 92089B9318FB77BA00369B43 /* SNEWeapon.m */; };
 		92089B9718FB77C900369B43 /* SNEArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = 92089B9618FB77C900369B43 /* SNEArmor.m */; };
 		92089B9A18FB77D800369B43 /* SNECharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 92089B9918FB77D800369B43 /* SNECharacter.m */; };
+		9299050D18FC5C6C000B9D50 /* SNETile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9299050C18FC5C6C000B9D50 /* SNETile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,8 @@
 		92089B9618FB77C900369B43 /* SNEArmor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNEArmor.m; sourceTree = "<group>"; };
 		92089B9818FB77D800369B43 /* SNECharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNECharacter.h; sourceTree = "<group>"; };
 		92089B9918FB77D800369B43 /* SNECharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNECharacter.m; sourceTree = "<group>"; };
+		9299050B18FC5C6C000B9D50 /* SNETile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNETile.h; sourceTree = "<group>"; };
+		9299050C18FC5C6C000B9D50 /* SNETile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNETile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +159,8 @@
 				92089B9618FB77C900369B43 /* SNEArmor.m */,
 				92089B9818FB77D800369B43 /* SNECharacter.h */,
 				92089B9918FB77D800369B43 /* SNECharacter.m */,
+				9299050B18FC5C6C000B9D50 /* SNETile.h */,
+				9299050C18FC5C6C000B9D50 /* SNETile.m */,
 				92089B5D18FB737D00369B43 /* Images.xcassets */,
 				92089B4C18FB737D00369B43 /* Supporting Files */,
 			);
@@ -315,6 +320,7 @@
 			files = (
 				92089B5218FB737D00369B43 /* main.m in Sources */,
 				92089B9718FB77C900369B43 /* SNEArmor.m in Sources */,
+				9299050D18FC5C6C000B9D50 /* SNETile.m in Sources */,
 				92089B9A18FB77D800369B43 /* SNECharacter.m in Sources */,
 				92089B5618FB737D00369B43 /* SNEAppDelegate.m in Sources */,
 				92089B9418FB77BA00369B43 /* SNEWeapon.m in Sources */,
@@ -523,6 +529,7 @@
 				92089B7618FB737D00369B43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92089B7718FB737D00369B43 /* Build configuration list for PBXNativeTarget "PirateAdventureTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +538,7 @@
 				92089B7918FB737D00369B43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

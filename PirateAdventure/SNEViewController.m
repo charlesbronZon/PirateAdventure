@@ -41,6 +41,5 @@
 - (IBAction)eastButtonPressed:(UIButton *)sender {
 }
 
-- (IBAction)westButtonPressed:(id)sender {
-}
+
 @end
